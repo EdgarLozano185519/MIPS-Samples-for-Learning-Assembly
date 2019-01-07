@@ -1,0 +1,36 @@
+Test results as captured via script command in Cygwin
+
+Script started on Tue, Jul 25, 2017  7:07:17 PM
+$ java -jar Mars.jar a2p1B.asm
+MARS 4.2  Copyright 2003-2012 Pete Sanderson and Kenneth Vollmar
+
+Enter a non-zero integer: 1
+1 has rightmost 1 @ weight position 1
+Clearing the rightmost 1 makes it 0
+$ java -jar Mars.jar a2p1B.asm
+MARS 4.2  Copyright 2003-2012 Pete Sanderson and Kenneth Vollmar
+
+Enter a non-zero integer: -1
+-1 has rightmost 1 @ weight position 1
+Clearing the rightmost 1 makes it -2
+$ java -jar Mars.jar a2p1B.asm
+MARS 4.2  Copyright 2003-2012 Pete Sanderson and Kenneth Vollmar
+
+Enter a non-zero integer: 3456
+3456 has rightmost 1 @ weight position 128
+Clearing the rightmost 1 makes it 3328
+$ java -jar Mars.jar a2p1B.asm
+MARS 4.2  Copyright 2003-2012 Pete Sanderson and Kenneth Vollmar
+
+Enter a non-zero integer: -123456
+-123456 has rightmost 1 @ weight position 64
+Clearing the rightmost 1 makes it -123520
+$ java -jar Mars.jar a2p1B.asm
+MARS 4.2  Copyright 2003-2012 Pete Sanderson and Kenneth Vollmar
+
+Enter a non-zero integer: -2
+-2 has rightmost 1 @ weight position 2
+Clearing the rightmost 1 makes it -4
+$ exit
+
+Script done on Tue, Jul 25, 2017  7:13:55 PM
